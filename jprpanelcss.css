@@ -4,9 +4,212 @@ table.toplogin table tbody tr:nth-child(4) td label {font-size: 12px; position: 
 .toplabel a:hover {filter:alpha(opacity=70); opacity:0.7;}
 .footerlinks {padding-inline-start: 0px; width: auto; width: fit-content;}
 
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+
+/* Portrait and Landscape */
 @media only screen 
-and (min-device-width : 601px) 
-and (max-device-width : 1023px) {
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+body {font-size: 22px;}
+.nav {padding: 8px;}
+.pagearea {margin: 0; padding: 0; width: 100%;}
+.container {background-color: inherit;}
+.logo {margin-left: auto; margin-right: auto; float: none; height: 86px; width: 90%;}
+.sparklogo {display: inline-block; float: none;}
+.toplabel {font-size: 1.2em;}
+.toplabel a {font-size: 0.9em;}
+.box, .joinbutton {padding: 10px; margin-left: 0px; margin-right: 0px;}
+.box_grey, .textbg {padding: 10px;}
+.boxtext_small {font-size: 1.6em;}
+.boxheading {font-size: 1.7em;}
+.content-title {font-size: 1.8em;} 
+.lang-selector, .theme-selector {top: 141px; left: 5px; position: absolute;}
+a.navigator-top-item {font-size: 1.19em !important;}
+.bottomborder {border-bottom: solid 1px #999999;}
+.leftcol, .rightcol, .halfwidth, .thirdwidth, .twothirdwidth {float: inherit; width: 100% !important; line-height: 45px; padding: 10px;}
+.fullcol{margin:10px;}
+.alignright, .alignleft {margin-left: 0px; margin-right: 0px;}
+.rightcol img {-webkit-border-radius:2%; -moz-border-radius:2%; border-radius:2%;}
+.picbg, .textbg {-webkit-border-radius:0.8em; -moz-border-radius:0.8em; border-radius:0.8em;}
+.topnav .toplabel, .topnav label, .accordion, .panel {font-size: 1.3em;}
+.accordion {font-size: 1.4em; font-weight: bold;}
+.panel span {display: inline-block; padding: 10px; font-size: 1.3em;}
+.right-login-input, .toptextbox, select.topbutton {font-size: 1em;}
+[type=submit], .topnav > a.toplabel {font-size: 1.6em; height: inherit;}
+.topbutton {height: inherit;}
+select.topbutton {font-size: 1em}
+.footer {padding-left: 0px; padding-right: 0px;}
+.footerlinks {margin-top: 0px; margin-right: auto; margin-left: auto; padding-bottom: 0px; width: auto; width: fit-content;}
+ul.footerlinks {padding-inline-start: 0px !important;}
+.footerlinks a, .sameasfl {font-size: 1.2em;}
+.footerlinks li {margin-bottom: 10px;}
+ul.social-media {margin-right: auto; margin-left: auto; margin-top: 0px; padding-bottom: 40px; float: none; width: 276px;}
+ul.social-media a {width: 80px; height: 80px; background-size: cover;}
+ul.social-media a img {width: 80px; height: 80px;}
+.topnav {height: 205px;}
+.loggedin {font-size: 1.2em;}
+.loggedin, a.toplabel3 {padding-right: 10px;}
+.surveynote {font-size: 1.5em;}
+.surveylist-header-cell, .surveylist-empty-text {font-size: 1.4em;}
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+body {font-size: 22px;}
+.nav {padding: 8px;}
+.pagearea {margin: 0; padding: 0; width: 100%;}
+.container {background-color: inherit;}
+.logo {margin-left: auto; margin-right: auto; float: none; height: 86px; width: 90%;}
+.sparklogo {display: inline-block; float: none;}
+.toplabel {font-size: 1.2em;}
+.toplabel a {font-size: 0.9em;}
+.box, .joinbutton {padding: 10px; margin-left: 0px; margin-right: 0px;}
+.box_grey, .textbg {padding: 10px;}
+.boxtext_small {font-size: 1.6em;}
+.boxheading {font-size: 1.7em;}
+.content-title {font-size: 1.8em;} 
+.lang-selector, .theme-selector {top: 141px; left: 5px; position: absolute;}
+a.navigator-top-item {font-size: 1.19em !important;}
+.bottomborder {border-bottom: solid 1px #999999;}
+.leftcol, .rightcol, .halfwidth, .thirdwidth, .twothirdwidth {float: inherit; width: 100% !important; line-height: 45px; padding: 10px;}
+.fullcol{margin:10px;}
+.alignright, .alignleft {margin-left: 0px; margin-right: 0px;}
+.rightcol img {-webkit-border-radius:2%; -moz-border-radius:2%; border-radius:2%;}
+.picbg, .textbg {-webkit-border-radius:0.8em; -moz-border-radius:0.8em; border-radius:0.8em;}
+.topnav .toplabel, .topnav label, .accordion, .panel {font-size: 1.3em;}
+.accordion {font-size: 1.4em; font-weight: bold;}
+.panel span {display: inline-block; padding: 10px; font-size: 1.3em;}
+.right-login-input, .toptextbox, select.topbutton {font-size: 1em;}
+[type=submit], .topnav > a.toplabel {font-size: 1.6em; height: inherit;}
+.topbutton {height: inherit;}
+select.topbutton {font-size: 1em}
+.footer {padding-left: 0px; padding-right: 0px;}
+.footerlinks {margin-top: 0px; margin-right: auto; margin-left: auto; padding-bottom: 0px; width: auto; width: fit-content;}
+ul.footerlinks {padding-inline-start: 0px !important;}
+.footerlinks a, .sameasfl {font-size: 1.2em;}
+.footerlinks li {margin-bottom: 10px;}
+ul.social-media {margin-right: auto; margin-left: auto; margin-top: 0px; padding-bottom: 40px; float: none; width: 276px;}
+ul.social-media a {width: 80px; height: 80px; background-size: cover;}
+ul.social-media a img {width: 80px; height: 80px;}
+.topnav {height: 205px;}
+.loggedin {font-size: 1.2em;}
+.loggedin, a.toplabel3 {padding-right: 10px;}
+.surveynote {font-size: 1.5em;}
+.surveylist-header-cell, .surveylist-empty-text {font-size: 1.4em;}
+}
+
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+body {font-size: 22px;}
+.nav {padding: 8px;}
+.pagearea {margin: 0; padding: 0; width: 100%;}
+.container {background-color: inherit;}
+.logo {margin-left: auto; margin-right: auto; float: none; height: 86px; width: 90%;}
+.sparklogo {display: inline-block; float: none;}
+.toplabel {font-size: 1.2em;}
+.toplabel a {font-size: 0.9em;}
+.box, .joinbutton {padding: 10px; margin-left: 0px; margin-right: 0px;}
+.box_grey, .textbg {padding: 10px;}
+.boxtext_small {font-size: 1.6em;}
+.boxheading {font-size: 1.7em;}
+.content-title {font-size: 1.8em;} 
+.lang-selector, .theme-selector {top: 141px; left: 5px; position: absolute;}
+a.navigator-top-item {font-size: 1.19em !important;}
+.bottomborder {border-bottom: solid 1px #999999;}
+.leftcol, .rightcol, .halfwidth, .thirdwidth, .twothirdwidth {float: inherit; width: 100% !important; line-height: 45px; padding: 10px;}
+.fullcol{margin:10px;}
+.alignright, .alignleft {margin-left: 0px; margin-right: 0px;}
+.rightcol img {-webkit-border-radius:2%; -moz-border-radius:2%; border-radius:2%;}
+.picbg, .textbg {-webkit-border-radius:0.8em; -moz-border-radius:0.8em; border-radius:0.8em;}
+.topnav .toplabel, .topnav label, .accordion, .panel {font-size: 1.3em;}
+.accordion {font-size: 1.4em; font-weight: bold;}
+.panel span {display: inline-block; padding: 10px; font-size: 1.3em;}
+.right-login-input, .toptextbox, select.topbutton {font-size: 1em;}
+[type=submit], .topnav > a.toplabel {font-size: 1.6em; height: inherit;}
+.topbutton {height: inherit;}
+select.topbutton {font-size: 1em}
+.footer {padding-left: 0px; padding-right: 0px;}
+.footerlinks {margin-top: 0px; margin-right: auto; margin-left: auto; padding-bottom: 0px; width: auto; width: fit-content;}
+ul.footerlinks {padding-inline-start: 0px !important;}
+.footerlinks a, .sameasfl {font-size: 1.2em;}
+.footerlinks li {margin-bottom: 10px;}
+ul.social-media {margin-right: auto; margin-left: auto; margin-top: 0px; padding-bottom: 40px; float: none; width: 276px;}
+ul.social-media a {width: 80px; height: 80px; background-size: cover;}
+ul.social-media a img {width: 80px; height: 80px;}
+.topnav {height: 205px;}
+.loggedin {font-size: 1.2em;}
+.loggedin, a.toplabel3 {padding-right: 10px;}
+.surveynote {font-size: 1.5em;}
+.surveylist-header-cell, .surveylist-empty-text {font-size: 1.4em;}
+}
+
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-min-device-pixel-ratio: 3) { 
+body {font-size: 22px;}
+.nav {padding: 8px;}
+.pagearea {margin: 0; padding: 0; width: 100%;}
+.container {background-color: inherit;}
+.logo {margin-left: auto; margin-right: auto; float: none; height: 86px; width: 90%;}
+.sparklogo {display: inline-block; float: none;}
+.toplabel {font-size: 1.2em;}
+.toplabel a {font-size: 0.9em;}
+.box, .joinbutton {padding: 10px; margin-left: 0px; margin-right: 0px;}
+.box_grey, .textbg {padding: 10px;}
+.boxtext_small {font-size: 1.6em;}
+.boxheading {font-size: 1.7em;}
+.content-title {font-size: 1.8em;} 
+.lang-selector, .theme-selector {top: 141px; left: 5px; position: absolute;}
+a.navigator-top-item {font-size: 1.19em !important;}
+.bottomborder {border-bottom: solid 1px #999999;}
+.leftcol, .rightcol, .halfwidth, .thirdwidth, .twothirdwidth {float: inherit; width: 100% !important; line-height: 45px; padding: 10px;}
+.fullcol{margin:10px;}
+.alignright, .alignleft {margin-left: 0px; margin-right: 0px;}
+.rightcol img {-webkit-border-radius:2%; -moz-border-radius:2%; border-radius:2%;}
+.picbg, .textbg {-webkit-border-radius:0.8em; -moz-border-radius:0.8em; border-radius:0.8em;}
+.topnav .toplabel, .topnav label, .accordion, .panel {font-size: 1.3em;}
+.accordion {font-size: 1.4em; font-weight: bold;}
+.panel span {display: inline-block; padding: 10px; font-size: 1.3em;}
+.right-login-input, .toptextbox, select.topbutton {font-size: 1em;}
+[type=submit], .topnav > a.toplabel {font-size: 1.6em; height: inherit;}
+.topbutton {height: inherit;}
+select.topbutton {font-size: 1em}
+.footer {padding-left: 0px; padding-right: 0px;}
+.footerlinks {margin-top: 0px; margin-right: auto; margin-left: auto; padding-bottom: 0px; width: auto; width: fit-content;}
+ul.footerlinks {padding-inline-start: 0px !important;}
+.footerlinks a, .sameasfl {font-size: 1.2em;}
+.footerlinks li {margin-bottom: 10px;}
+ul.social-media {margin-right: auto; margin-left: auto; margin-top: 0px; padding-bottom: 40px; float: none; width: 276px;}
+ul.social-media a {width: 80px; height: 80px; background-size: cover;}
+ul.social-media a img {width: 80px; height: 80px;}
+.topnav {height: 205px;}
+.loggedin {font-size: 1.2em;}
+.loggedin, a.toplabel3 {padding-right: 10px;}
+.surveynote {font-size: 1.5em;}
+.surveylist-header-cell, .surveylist-empty-text {font-size: 1.4em;}
+}
+
+/* Portrait and Landscape */
+@media screen 
+  and (device-width: 360px) 
+  and (device-height: 640px) 
+  and (-webkit-device-pixel-ratio: 4) {
 body {font-size: 22px;}
 .nav {padding: 8px;}
 .pagearea {margin: 0; padding: 0; width: 100%;}
